@@ -1,4 +1,3 @@
-import pygame as p
 from checkers.consts import *
 from checkers.board import Board
 
@@ -24,7 +23,7 @@ def main():
             if event.type == p.MOUSEBUTTONDOWN:
                 pass
 
-        board.draw_squares(WIN)
+        board.draw(WIN)
         p.display.update()
 
     p.quit()

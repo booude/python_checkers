@@ -2,7 +2,7 @@ from .consts import *
 
 
 class Piece:
-    PADDING = 10
+    PADDING = 15
     OUTLINE = 2
 
     def __init__(self, row, col, color):
